@@ -1,0 +1,33 @@
+# Secure .htaccess file
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
+ 
+# EE 404 page for missing pages
+ErrorDocument 404 /404
+ 
+# Simple 404 for missing files
+<FilesMatch "\.(jpe?g|gif|png|bmp|ico)$">
+    ErrorDocument 404 "File Not Found"
+</FilesMatch>
+ 
+RewriteEngine On
+ 
+RewriteBase /
+ 
+# remove the www
+RewriteCond %{HTTP_HOST} ^www.cuinart.net$ [NC]
+RewriteRule ^(.*)$ http://yoursite.com/$1 [R=301,L]
+ 
+#remove trailing slash
+RewriteCond %{HTTP_HOST} !^\.cuinart\.net$ [NC]
+RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+Redirect permanent http://cuinart.net/cuinart/nosotros.html http://www.cuinart.net/about.php
+Redirect permanent http://cuinart.net/localizacion.html http://www.cuinart.net/localizacion.php
+Redirect permanent http://www.cuinart.net/presupuesto.html http://www.cuinart.net/presupuesto.php
+Redirect permanent http://www.cuinart.net/presupuesto.html http://www.cuinart.net/presupuesto.php
+
+ 
+
