@@ -1,410 +1,400 @@
-
 body {
-	font-family: 'Open Sans', sans-serif, Arial;
-	font-weight:400;
-	font-size: 13px;
-	color: #333;
-	background-repeat: repeat;
-	background-color: #FFF;
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    color: #333;
+    background-repeat: repeat;
+    background-color: #FFF;
 }
 img {
-	max-width:100%;
-	border:none;
+    border: none;
 }
 a:link {
-	text-decoration:none;
-	color:#CC6600;
-	
+    text-decoration: none;
+    color: #CC6600;
 }
 a:visited {
-	text-decoration:none;
-	color:#CC6600;
+    text-decoration: none;
+    color: #CC6600;
 }
-
-
 #contenidor {
-	height: 620px;
-	width: 1200px;
-	background-color: #FFF;
-	margin: 20px auto;
-	position: relative;
-
+    height: 620px;
+    width: 1200px;
+    background-color: #FFF;
+    margin: 20px auto;
+    position: relative;
 }
 #capsalera {
-	height: 100px;
-	width: 100%;
-	position: relative;
-	background-color: #191919;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: #191919;
 }
 #capsa_left {
-	height: 100px;
-	width: 500px;
-	float: left;
+    height: 100px;
+    width: 500px;
+    float: left;
 }
-
-ul#menu-top  {list-style: none; padding: 56px 0 0 42px;}
-ul#menu-top  li {float: left; margin-right: 20px; }
-ul#menu-top  li a {color: #ffffff; }
-
-
+ul#menu-top {
+    list-style: none;
+    padding: 56px 0 0 42px;
+}
+ul#menu-top li {
+    float: left;
+    margin-right: 20px;
+}
+ul#menu-top li a {
+    color: #ffffff;
+}
 #capsa_right {
-	float: right;
-	height: 100px;
-	width: 700px;
-	
+    float: right;
+    height: 100px;
+}
+#capsa_right img {
+    width: 100%;
 }
 #pantalla {
-	height: 350px;
-	width: 900px;
-	float: right;
-	margin-top: 50px;
-	position: relative;
-	
-	overflow: auto;
-	overflow-x: hidden;
-	display: block;
-	color:#333;
+    height: 350px;
+    width: 900px;
+    float: right;
+    margin-top: 50px;
+    position: relative;
+    overflow: auto;
+    overflow-x: hidden;
+    display: block;
+    color: #333;
 }
 .text_elec {
-	
-	font-size: 10px;
-	display: block;
-	padding-top: 20px;
-	padding-right: 15px;
-	padding-left: 15px;
+    font-size: 10px;
+    display: block;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-
-.content-front #info_A_bottom h4 {margin: 14px auto;}
-.content-front #info_A_bottom a {float: left;}
-
-.content-front #info_A_top h3 {color:#CC6600;}
-
-#info_A, 
-#info_left {
-	float: left;
-	height: 380px;
-	width: 250px;
-	margin-top: 50px;
-	margin-right: 10px;
-	border: 1px solid #dddddd;
-	
+.content-front #info_A_bottom h4 {
+    margin: 14px auto;
 }
-#info_A p,
-#info_A h3 {padding: 0 10px;}
-
+.content-front #info_A_bottom a {
+    float: left;
+}
+.content-front #info_A_top h3 {
+    color: #CC6600;
+}
+#info_A, #info_left {
+    float: left;
+    height: 380px;
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border: 1px solid #dddddd;
+}
+#info_A p, #info_A h3 {
+    padding: 0 10px;
+}
 #menu_capsa {
-	float: right;
-	height: 25px;
-	width: 900px;
+    float: right;
+    height: 25px;
+    width: 900px;
 }
 #peu {
-	height: 50px;
-	width: 100%;
-	float: left;
-	margin-top: 20px;
-	bottom: 0px;
-	background-color: #191919;
-	
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    bottom: 0px;
+    background-color: #191919;
 }
 #capsa_left_info {
-	font-size: 12px;
-	float: left;
-	width: 500px;
-	
+    font-size: 12px;
+    float: left;
+    width: 500px;
 }
-
 .list {
-	width: 60px;
-	display: inline;
-	height: 20px;
-	position: relative;
-	background-color: #333;
-	clear: left;
+    width: 60px;
+    display: inline;
+    height: 20px;
+    position: relative;
+    background-color: #333;
+    clear: left;
 }
 .capsa_left_info {
-	text-decoration: none;
-	color: #FFF;
-	margin-right: 10px;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-right-style: solid;
-	border-top-color: #FFF;
-	border-right-color: #FFF;
-	border-bottom-color: #FFF;
-	border-left-color: #FFF;
-	padding-right: 5px;
-	height: 10px;
-	display: inline;
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 10px;
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-right-style: solid;
+    border-top-color: #FFF;
+    border-right-color: #FFF;
+    border-bottom-color: #FFF;
+    border-left-color: #FFF;
+    padding-right: 5px;
+    height: 10px;
+    display: inline;
 }
-
 .peu_bottom_text {
-	font-size: 10px;
-	text-align: center;
-	vertical-align: middle;
-	color: #666;
-	text-decoration: none;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: #666;
+    text-decoration: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
 }
 .peu_bottom_text a:link {
-	text-decoration: none;
-	color: #FFF;
+    text-decoration: none;
+    color: #FFF;
 }
 .peu_bottom_text a:visited {
-	text-decoration: none;
-	color: #FFF;
+    text-decoration: none;
+    color: #FFF;
 }
-
 .peu_top_text {
-	font-size: 10px;
-	color: #666;
-	text-align: center;
-	vertical-align: middle;
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+    vertical-align: middle;
 }
 #peu_bottom {
-	height: 30px;
-	bottom: 0px;
-	width: 1200px;
-	margin-top: 30px;
+    height: 30px;
+    bottom: 0px;
+    width: 1200px;
+    margin-top: 30px;
 }
 pantalla_nosotros {
-	text-decoration: none;
+    text-decoration: none;
 }
-
-#myGallery
-{
-width: 900px !important;
-height: 350px !important;
-} 
-
+#myGallery {
+    width: 900px !important;
+    height: 350px !important;
+}
 .info_A_top_title {
-	text-align: center;
-	font-size: 10px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	padding-top: 10px;
-	vertical-align: middle;
-	color: #333;
-	font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    vertical-align: middle;
+    color: #333;
+    font-weight: bold;
 }
 .info_A_top_title a:link {
-	text-decoration: none;
-	color: #333;
+    text-decoration: none;
+    color: #333;
 }
 .info_A_top_title a:visited {
-	text-decoration: none;
-	color: #333;
+    text-decoration: none;
+    color: #333;
 }
 .info_A_top_image {
-	border: thin none #CCC;
-	margin-top: 2px;
-	padding-left: 20px;
-	padding-top: 3px;
-	padding-right: 10px;
+    border: thin none #CCC;
+    margin-top: 2px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 10px;
 }
 #info_A_top {
-	height: 150px;
-	width: 250px;
-	border: 1px none #333;
+    height: 150px;
+    width: 250px;
+    border: 1px none #333;
 }
 #info_A_bottom {
-	height: 145px;
-	width: 250px;
-	border-top-width: thin;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: thin;
-	border-top-style: solid;
-	border-right-style: none;
-	border-left-style: none;
-	border-top-color: #999;
-	border-right-color: #999;
-	border-bottom-color: #999;
-	border-left-color: #999;
-	float: left;
-	clear: right;
-	position: relative;
+    height: 145px;
+    width: 250px;
+    border-top-width: thin;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: thin;
+    border-top-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-color: #999;
+    border-right-color: #999;
+    border-bottom-color: #999;
+    border-left-color: #999;
+    float: left;
+    clear: right;
+    position: relative;
 }
-
 .ofertas {
-	height: 150px;
-	width: 900px;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-bottom-style: none;
-	border-top-color: #333;
-	border-right-color: #333;
-	border-bottom-color: #333;
-	border-left-color: #333;
-	float: left;
+    height: 150px;
+    width: 900px;
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-bottom-style: none;
+    border-top-color: #333;
+    border-right-color: #333;
+    border-bottom-color: #333;
+    border-left-color: #333;
+    float: left;
 }
 .title_ofertas {
-	float: left;
-	width: 250px;
-	height: 140px;
-	margin: 5px;
-	display: block;
-	background-color: #333;
+    float: left;
+    width: 250px;
+    height: 140px;
+    margin: 5px;
+    display: block;
+    background-color: #333;
 }
 .fotos_ofertas {
-	float: left;
-	width: 250px;
-	padding-bottom: 5px;
-	height: 140px;
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
+    float: left;
+    width: 250px;
+    padding-bottom: 5px;
+    height: 140px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 .text_title_ofertas {
-	margin-left: 15px;
-	
-	font-size: 20px;
-	font-weight: bold;
-	color: #FFF;
-	display: block;
-	text-align: left;
-	margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
 }
 .preu {
-	color: #C60;
-	font-weight: 800;
-	font-size: 15px;
-	
-	vertical-align: middle;
-	text-align: left;
-	display: block;
-	margin-left: 15px;
+    color: #C60;
+    font-weight: 800;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: left;
+    display: block;
+    margin-left: 15px;
 }
 .info_oferta {
-	height: 140px;
-	width: 340px;
-	float: left;
-	display: block;
-	position: relative;
-	border: thin solid #333;
-	margin: 5px;
-	background-color: #FFF;
-	color: #333;
+    height: 140px;
+    width: 340px;
+    float: left;
+    display: block;
+    position: relative;
+    border: thin solid #333;
+    margin: 5px;
+    background-color: #FFF;
+    color: #333;
 }
 .text_info_oferta {
-	
-	font-size: 12px;
-	color: #333;
-	text-align: left;
-	margin-top: 5px;
-	margin-right: 10px;
-	display: block;
-	vertical-align: middle;
-	clip: rect(auto,auto,auto,auto);
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-color: #CCC;
-	border-right-color: #CCC;
-	border-bottom-color: #CCC;
-	border-left-color: #CCC;
-	margin-bottom: 5px;
-	margin-left: 10px;
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    display: block;
+    vertical-align: middle;
+    clip: rect(auto, auto, auto, auto);
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    border-left-color: #CCC;
+    margin-bottom: 5px;
+    margin-left: 10px;
 }
 .marca {
-	padding: 10px;
-	border: thin dotted #999;
+    padding: 10px;
+    border: thin dotted #999;
 }
-
 /****** SPECIFIC COCINAS************/
 
 .series_album {
-	display: block;
-	height: 190px;
-	width: 180px;
-	padding-left: 20px;
-	padding-top: 10px;
-	float: left;
-	background-color: #191919;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-color: #333;
-	border-right-color: #333;
-	border-bottom-color: #333;
-	border-left-color: #333;
-	margin-right: 20px;
-	margin-bottom: 10px;
+    display: block;
+    height: 190px;
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    background-color: #191919;
+    border-top-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    border-left-width: thin;
+    border-top-color: #333;
+    border-right-color: #333;
+    border-bottom-color: #333;
+    border-left-color: #333;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 .series_text {
-	color: #FFF;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: normal;
-	vertical-align: top;
-	text-align: center;
-	float: left;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: center;
+    float: left;
 }
 .link {
-	text-decoration: none;
-	text-align: center;
+    text-decoration: none;
+    text-align: center;
 }
 .link a {
-	color: #666;
-	text-decoration: none;
+    color: #666;
+    text-decoration: none;
 }
 .marca {
-	padding: 10px;
-	border: thin dotted #999;
+    padding: 10px;
+    border: thin dotted #999;
 }
 .logo_elec {
-	height: 100px;
-	width: 200px;
-	display: inline;
-	margin-left: 10px;
-	margin-top: 10px;
-	float: left;
+    height: 100px;
+    width: 200px;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
 }
 .text_elec {
-	color: #333;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	display: block;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-left: 15px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: block;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .miniatures {
-	border: thin solid #333;
-	height: 160px;
-	width: 160px;
-	display: inline;
-	float: left;
-	margin-right: 15px;
-	margin-bottom: 15px;
+    border: thin solid #333;
+    height: 160px;
+    width: 160px;
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 .logo_modelos {
-	display: block;
-	vertical-align: middle;
-	text-align: center;
-	padding-top: 20px;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 20px;
 }
+#simplegallery1 {
+    //CSS for Simple Gallery Example 1
+    position: relative;
+    /*keep this intact*/
 
-#simplegallery1{ //CSS for Simple Gallery Example 1
-position: relative; /*keep this intact*/
-visibility: hidden; /*keep this intact*/
-border: 0px;
+    visibility: hidden;
+    /*keep this intact*/
+
+    border: 0px;
 }
-
-#simplegallery1 .gallerydesctext{ //CSS for description DIV of Example 1 (if defined)
-text-align: left;
-padding: 2px 5px;
+#simplegallery1 .gallerydesctext {
+    //CSS for description DIV of Example 1 (if defined)
+    text-align: left;
+    padding: 2px 5px;
 }
-
 .fb-like {
-	float: right; padding: 10px 20px;
+    float: right;
+    padding: 10px 20px;
 }

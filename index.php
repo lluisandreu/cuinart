@@ -16,7 +16,7 @@
       <p><a href="https://www.facebook.com/media/set/?set=a.682157211870930.1073741845.584379134982072&type=1" target="_blank">Mira las ofertas</a></p>
     <!-- <a href="tienda.php" >
       <img src="images/360.jpg" id="Image6" alt="Vista de 360" /></a>-->
-    </div> 
+    </div>
    <div id="info_A_bottom">
       <h4 style="text-align: center;">Nuestras marcas de confianza</h4>
       <a href="http://xey.es/" target="_blank"><img src="images/logos/xey.jpg" width="62" height="40" class="info_A_top_image" alt="xey" /></a>

@@ -4,7 +4,9 @@
 ?>
 
 <div id="pantalla">
-  <img src="images/slide/pan1.jpg" alt=""> <p> Cuinart es una empresa dedicada
+  <img src="images/slide/pan1.jpg" alt="">
+  <h1>Sobre nosotros</h1>
+  <p> Cuinart es una empresa dedicada
   al sector del mobiliario de cocina, que empez&oacute; su actividad en el
   a&ntilde;o 1981 fabricando sus propios muebles. En el a&ntilde;o 1984 se
   opt&oacute; por incluir la distribuci&oacute;n de marcas comerciales como <a
@@ -23,7 +25,7 @@
   href="http://www2.dupont.com/DuPont_Home/en_US/index.html"
   target="_blank">Corian Dupont</a>, pudiendo obtener la encimera en una
   s&oacute;la pieza sin ninguna junta.</p>
-    
+
     <p>Tambi&eacute;n trabajamos con las m&aacute;s prestigiosas marcas de
     electrodom&eacute;sticos para ofrecerle una instalaci&oacute;n completa de
     su cocina. </p>
