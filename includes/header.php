@@ -44,9 +44,9 @@ Warendorf, Sub-Zero, Wolf, Gutmann, baño, aseo, oficina"/>
 <script type="text/javascript" src="js/fadeslideshow.js"></script>
 <script type="text/javascript" src="js/prototype.js"></script>
 <script type="text/javascript" src="js/simplegallery.js"></script>
-<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
-
+<script type="text/javascript" src="js/scriptaculous.js"></script>
 <script type="text/javascript" src="js/p2q_embed_object.js"></script>
+
 
 
 

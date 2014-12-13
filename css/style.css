@@ -97,11 +97,9 @@ ul#menu-top li a {
     width: 900px;
 }
 #peu {
-    height: 50px;
     width: 100%;
     float: left;
     margin-top: 20px;
-    bottom: 0px;
     background-color: #191919;
 }
 #capsa_left_info {
@@ -160,14 +158,11 @@ ul#menu-top li a {
     vertical-align: middle;
 }
 #peu_bottom {
-    height: 30px;
-    bottom: 0px;
-    width: 1200px;
-    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    
 }
-pantalla_nosotros {
-    text-decoration: none;
-}
+
 #myGallery {
     width: 900px !important;
     height: 350px !important;
