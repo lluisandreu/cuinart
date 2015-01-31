@@ -11,7 +11,6 @@
           <li><a class="fly">Модели</a>
             <ul class="fly1">
               <li><a href="xey.php">XEY</a></li>
-              <li><a href="gatto.php">GATTO</a></li>
               <li><a href="forma.php">FORMA</a></li>
               <li><a href="corian.php">CORIAN</a></li>
               <li><a href="stormer.php">STÖRMER</a></li>
